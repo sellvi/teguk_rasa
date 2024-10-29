@@ -16,7 +16,7 @@ if($jumlah_data > 0){
     $_SESSION['username'] = $data['username'];
     $_SESSION['role'] = $data['role'];
 
-    header("Location: index.php");
+    header("Location: tambah_produk.php");
       
 }else{
 
